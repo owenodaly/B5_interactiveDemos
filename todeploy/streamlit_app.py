@@ -16,5 +16,5 @@ elif tutorial_choice == 'Autocorrelation':
     autocorr.run()
 elif tutorial_choice == 'Smoothing':
     smooth.run()
-elif tutorial_choice == 'Slice-Timing Correction'
+elif tutorial_choice == 'Slice-Timing Correction':
     timing.run()
