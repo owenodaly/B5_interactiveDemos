@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+from scipy import stats
 import scipy
 st.info(f"SciPy version: {scipy.__version__}")
 res = stats.goodness_of_fit(stats.norm, pseudo_data, known_params=known_params,
