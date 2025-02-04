@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 import scipy
-st.info(f"SciPy version: {scipy.__version__}")
-res = stats.goodness_of_fit(stats.norm, pseudo_data, known_params=known_params,
-                                    statistic='ks', random_state=rng)
+#st.info(f"SciPy version: {scipy.__version__}")
+#res = stats.goodness_of_fit(stats.norm, pseudo_data, known_params=known_params,
+#                                    statistic='ks', random_state=rng)
 from scipy.interpolate import interp1d
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
