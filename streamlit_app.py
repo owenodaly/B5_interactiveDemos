@@ -3,6 +3,7 @@ import timing  # Import your tutorials
 import autocorr
 import smooth
 import predbold
+from scipy import stats
 
 # Landing page
 st.title("Interactive Tutorials")
